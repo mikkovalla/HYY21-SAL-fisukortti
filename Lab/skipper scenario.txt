@@ -1,0 +1,8 @@
+Paul looks for a place to fish for perch and zander near his home in Espoo. He searches the spots with search terms 'perch' and 'Espoo'. He is proposed 
+several lakes and shoreline spots in Espoo. Paul runs through the listing and reads the reviews, only to realise that perch fishing from shore is not very
+effective at this time of the year. However, the perch are scattered among deeper weed beds in aroun 4 to 6 meters of water. Paul looks at the listing for the spot
+at Kivenlahti Marina and sees the advertisement to rent a boat through Skipperi for the day. Paul clicks the boat picture and is taken to Skipperi to finalize
+his rental for the given time. After the rental is confirmed, Paul is returned to the listing for Kivenlahti Marina on fisukortti and he reads through the reviews,
+checks the weather forecast for the spot provided by Foreca API, and decides to buy couple of jigs recommended by reviewers through the link to Happy Angler.
+From the regulations section Paul realises he needs the national fishing permit, and clicks the link to the Eräluvat website to buy one. 
+Week later, Paul is emailed by fisukortti to provide a review of the spot.
