@@ -1,0 +1,31 @@
+Fisukortti
+
+Fisukortti is an online service which gathers fishing spots from Finland. The current plan is to focus only on Finland.
+
+Users
+
+Users are individuals in Finland, who are interested in fishing. There are about 1,6 million fishing enthusiasts in Finland.
+
+Requirements
+
+•	The service can be used online, on tablet and on mobile devices.
+•	Users can login.
+•	Users can browse rivers, lakes, archipelago and shoreliness to find fishing spots that suit their need.
+•	Users can search spots per fishing method, fish species, spot type or location.
+•	Users can review a spot and add pictures to their reviews.
+•	Users can add a specific spot to their 'Favourite Spots'-list.
+•	Users can manage their reviews and see their favorite spots.
+•	Users can share their favorite spots on Facebook, Twitter, Instagram, WhatsApp and other social media platforms.
+•	Spots can be viewed as a list or listed on a map.
+•	The spot listing shows important info about the spot, regulations, recommended fishing methods and other nearby spots.
+•	The service is free to use to the users.
+•	Revenue model is based on affiliate sales and ads from an advertising aggregator.
+
+Extra features
+
+•	Listing the boats available for rental at or near a spot from the finnish boat rental service Skipperi.
+•	List fishing guides in the area.
+•	Users can buy the recommendations of a fishing guide.
+•	Users will be able to buy fishing permits for private spots within the service.
+•	Users can view custom made lake and archipelago depth charts if these are available through Navionics API.
+•	Users can get access recommendation on the map from Google transport API.
