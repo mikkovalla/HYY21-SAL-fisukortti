@@ -1,0 +1,21 @@
+Ilities
+
+Dynamic or operational ”-ilities”
+
+•	Scalability is the ability for the system to perform and operate as the number of users or requests increases. Fisukortti must be up and running when there are many users on a sunny Sunday afternoon.
+
+Static ”-ilities”
+
+•	Extensibility is important, because adding new pieces of functionality must be easy.
+•	Installability is ease of system installation on all necessary platforms. Fisukortti must be easy to install for users.
+•	Localization so that there is support for multiple languages.
+•	Maintainability so that it is easy to apply changes and enhance the system. 
+Cross-cutting ”-ilities”
+
+•	Accessibility so that all users can access Fisukortti, including those with disabilities like visually impaired.
+•	Authentication because Fisukortti-users can login.
+•	Usability/achievability so that Fisukortti is easy to use.
+
+Open issues
+
+Ilities about authorization, legal, privacy and security issues are still open.
