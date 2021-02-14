@@ -1,0 +1,38 @@
+Name: Pauli searches for a flyfishing spot in Keski-Suomi region, opens 3 SpotViews and shares the last one to his Facbook profile.
+
+Initial State: Fisukortti web service is active and flyfishing season is open.
+
+Actors: Pauli, Fisukortti
+
+Steps:
+
+1. Pauli opens Fisukortti web service in web browser.
+
+2. Pauli inputs search terms 
+    - FishingMethod: 'Perhokalastus'
+    - Fish: 'Taimen'
+    - Place: 'Keski-Suomi'
+
+3. Fisukortti web service displays a list of Spots matching the search terms Pauli input.
+
+4. Pauli clicks open the Spot listing for 'Kuusankoski kosket'.
+
+5. Fisukortti renders the SpotView for 'Kuusankoski kosket' in the browser.
+
+6. Pauli scrolls through the SpotView. 
+
+7. Pauli closes the SpotView.
+
+8. Pauli clicks open the Spot listing for 'Kapeenkoski'.
+
+9. Fisukortti renders the SpotView for 'Kapeenkoski' in the browser.
+
+10. Pauli scrolls through the SpotView.
+
+11. Pauli clicks open the Spot listing for 'Keskisenkoski'.
+
+12. Fisukortti renders the SpotView for 'Keskisenkoski' in the browser.
+
+13. Pauli scrolls through the SpotView.
+
+14. Pauli clicks the Facebook 'Share' button in the SpotView, and shares the SpotView for 'Keskisenkoski' in his Facebook profile.

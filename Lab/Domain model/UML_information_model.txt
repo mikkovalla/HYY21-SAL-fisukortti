@@ -1,0 +1,24 @@
+The UML is created with https://yuml.me/diagram/scruffy/class/draw using model:
+
+// Cool Class Diagram
+// ------------------
+
+// Chain elements like this
+[User]1-*>[FishingMethod]
+[User]1-*>[Fish]
+[User]1-*>[Place]
+
+[FishingMethod]1-*>[Spot]1-1>[SpotView]
+[Fish]1-*>[Spot]
+[Place]1-*>[Spot]
+
+[SpotView]*-*>[FishingGuide]
+[SpotView]*-*>[Skipperi]
+[SpotView]*-*>[Advertisement]
+[SpotView]*-*>[AffiliateLinks]
+
+
+Explanation:
+
+One user may have multiple FishingMethods, Fish, and Places. Each of these may have multiple Spots, and each Spot is rendered based on one of the previous terms. 
+A single spot has one SpotView, and a SpotView may have multiple or zero FishingGuide, SKipperi, Advertisement and AffiliateLinks.

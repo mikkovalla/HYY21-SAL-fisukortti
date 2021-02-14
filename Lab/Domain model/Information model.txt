@@ -1,0 +1,24 @@
+Type                        Definition
+
+Spot                        Place to fish, for example a lake, a river, a shoreline, a pond, a creek.
+
+Spot view                   The information page displaying data for the specific Spot.
+
+User                        The person using the service and searching the spots.
+
+Place                       A geolocation to be used in the search, for example a city, a county, or an area.
+
+Fish                        The type and name of the fish species to be searched and which are assumed to be present at a spot. The species list is based on
+                            the information provided by Järviwiki.
+
+Fishing method              Searcheable fishing methods, like fly fishing, trolling, casting, pole fishing.
+
+Fishing Guide               Fishing guides are persons offering guiding services at specific spots. The fishing guides are displayed at the bottom of each Spot view if a or 
+                            multiple guides are available at the specific spot. User can click the Fishing Guide info box and will be redirected to the Fishing Guides personal web page.
+
+Skipperi                    Skipperi is a Finnish boat rental service. The boats available, if any, will be displayed under the Fishing Guides in the Spot view.
+
+Advertisement               Advertising displayed at specific location in the pages. Advertisements are from Google AdWords.
+
+Affiliate links             Links for lures, gear and equipment displayed at the Spot view page.
+
