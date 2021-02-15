@@ -6,6 +6,12 @@ Spot view                   The information page displaying data for the specifi
 
 User                        The person using the service and searching the spots.
 
+Review                      User can make Reviews for spots.
+
+Favorite                    User can have many Favorite spots.
+
+Search                      Search is used to find spots.
+
 Place                       A geolocation to be used in the search, for example a city, a county, or an area.
 
 Fish                        The type and name of the fish species to be searched and which are assumed to be present at a spot. The species list is based on
