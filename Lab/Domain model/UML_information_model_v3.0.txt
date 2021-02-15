@@ -1,0 +1,22 @@
+// Cool Class Diagram
+// ------------------
+
+// Chain elements like this
+
+[User]1-*[Search]
+[Search]1-*[FishingMethod]
+[Search]1-*[Fish]
+[Search]1-*[Place]
+[User]1-*[Review]
+[User]1-1[Favorite]
+
+[FishingMethod]1-*[Spot]1-1[SpotView/SpotList]
+[Fish]1-*[Spot]
+[Place]1-*[Spot]
+
+[Review]*-1[Spot]
+[Favorite]*-*[Spot]
+[SpotView/SpotList]*-0...*[FishingGuide]
+[SpotView/SpotList]*-0...*[Skipperi]
+[SpotView/SpotList]*-0...*[Advertisement]
+[SpotView/SpotList]*-0...*[AffiliateLinks]
