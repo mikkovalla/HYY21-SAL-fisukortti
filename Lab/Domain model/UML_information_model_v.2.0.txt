@@ -1,0 +1,20 @@
+https://yuml.me/diagram/scruffy/class/draw
+
+// Cool Class Diagram
+// ------------------
+
+// Chain elements like this
+
+[User]*-*[Spot]
+[User]1-*[Review]*-1[Spot]
+[User]1-*[Picture]*-1[Spot]
+
+[FishingMethod]1-*[Spot]1-*[SpotList]
+[Fish]1-*[Spot]
+[Place]1-*[Spot]
+
+[SpotList]*-*[FishingGuide]
+[SpotList]*-*[Skipperi]
+[SpotList]*-*[Advertisement]
+[SpotList]*-*[AffiliateLinks]
+[SpotList]*-*[etc.]
