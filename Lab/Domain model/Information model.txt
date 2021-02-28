@@ -1,32 +1,28 @@
-Type                        Definition
-
-Spot                        Place to fish, for example a lake, a river, a shoreline, a pond, a creek.
-
-SpotList                    The spot listings displayed based on user's search terms.
-
-User                        The person using the service and searching the spots.
-
-SavedSearches               User can save searches they do for later use.
-
-Review                      User can make Reviews for spots.
-
-Favorite                    User can have many Favorite spots.
-
-Search                      Search is used to find spots.
-
-Place                       A geolocation to be used in the search, for example a city, a county, or an area.
-
-Fish                        The type and name of the fish species to be searched and which are assumed to be present at a spot. The species list is based on
-                            the information provided by Järviwiki.
-
-Fishing method              Searcheable fishing methods, like fly fishing, trolling, casting, pole fishing.
-
-Fishing Guide               Fishing guides are persons offering guiding services at specific spots. The fishing guides are displayed at the bottom of each Spot view if a or 
-                            multiple guides are available at the specific spot. User can click the Fishing Guide info box and will be redirected to the Fishing Guides personal web page.
-
-Skipperi                    Skipperi is a Finnish boat rental service. The boats available, if any, will be displayed under the Fishing Guides in the Spot view.
-
-Advertisement               Advertising displayed at specific location in the pages. Advertisements are from Google AdWords.
-
-Affiliate links             Links for lures, gear and equipment displayed at the Spot view page.
-
+•	Spot 
+-	Place to fish, for example a lake, a river, a shoreline, a pond, a creek. Each Spot has at least one Fish, FishingMethod and Place. Spots can have FishingGuide, Skipperi, Advertisement and AffiliateLinks. 
+•	SpotList 
+-	SpotList is the Spot listings displayed based on User's Search terms. 
+•	User 
+-	The person using the service and searching the Spots to find out where to go fishing. 
+•	SavedSearches 
+-	Users can save Searches they have done for later use. 
+•	Review 
+-	User can make Reviews for Spots. Other Users see Reviews when they view the Spot. 
+•	Favorite 
+-	Favorite is User’s favorite fishing Spot. User can have many Spots as a Favorite. 
+•	Search 
+-	Search is used to find Spots. Search can be done by using Place, Fish or FishingType as a search term. 
+•	Place 
+-	Place is a geolocation to be used in the Search as a search term, for example a city, a county or an area.
+•	Fish 
+-	Fish is a species that is used in the Search as a search term, for example a trout or a perch. The species list is based on the information provided by Laji.fi. 
+•	FishingMethod 
+-	FishingMethod is a way to catch fish and it is used in the Search as a search term, for example fly-fishing, trolling, casting and pole fishing. 
+•	FishingGuide 
+-	FishingGuide is a person offering guiding services at specific Spots. The FishingGuides are displayed at the Spot page. There can be multiple FishingGuides available at the specific Spot. User can click the FishingGuide info box and will be redirected to the FishingGuide’s personal web page.
+•	Skipperi 
+-	Skipperi is a Finnish boat rental service. If Spot has any available boats, they are displayed at the Spot page. 
+•	Advertisement 
+-	Advertisement is displayed at specific location at the Spot page. Advertisements are from Google AdWords.
+•	AffiliateLinks 
+-	AffiliateLinks for lures, gear and equipment are displayed at the Spot page.
