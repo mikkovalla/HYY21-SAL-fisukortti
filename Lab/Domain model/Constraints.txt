@@ -3,4 +3,4 @@ Constraints/Invariants:
 - User has to be unique
 - User is required to perform a search with at least 2 search terms out of 3
 - Spot has to be unique
-- FishingGuide, Skipperi, Advertisement and AffiliateLinks are not mandatory in the SpotView
+- FishingGuide, Skipperi, Advertisement and AffiliateLinks are not mandatory in the Spot
