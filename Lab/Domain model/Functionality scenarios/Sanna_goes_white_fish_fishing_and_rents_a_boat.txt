@@ -1,0 +1,36 @@
+Name: Sanna searches for a whitefish spot in Helsinki region, opens 2 Spots and registers to Skipperi.
+
+Initial State: Fisukortti web service is active and whitefish season is open in March.
+
+Actors: Sanna, Fisukortti
+
+Steps:
+
+1. Sanna opens Fisukortti web service in web browser.
+
+2. Sanna inputs search terms 
+    - FishingMethod: ''
+    - Fish: 'Siika'
+    - Place: 'Helsinki'
+
+3. Fisukortti web service displays a list of Spots matching the search terms Sanna input.
+
+4. Sanna clicks open the Spot listing for 'Hernesaari'.
+
+5. Fisukortti renders the Spot for 'Hernesaari' in the browser.
+
+6. Sanna scrolls through the Spot. 
+
+7. Sanna closes the Spot.
+
+8. Sanna clicks open the Spot listing for 'Uutela'.
+
+9. Fisukortti renders the Spot for 'Uutela' in the browser.
+
+10. Sanna scrolls through the Spot.
+
+11. Sanna is interested in a boat rental from Skipperi displayed on Spot page.
+
+12. Sanna clicks the Skipperi link and is taken to their web page to register as a customer.
+
+

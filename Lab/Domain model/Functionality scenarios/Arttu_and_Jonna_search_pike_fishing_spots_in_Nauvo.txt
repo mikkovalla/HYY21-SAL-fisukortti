@@ -1,0 +1,38 @@
+Name: Arttu and Jonna search pike fishing spots in Nauvo.
+
+Initial State: Fisukortti web service is active and and it is July summer holiday season.
+
+Actors: Arttu, Jonna, Fisukortti
+
+Steps:
+
+1. Arttu opens Fisukortti web service in web browser.
+
+2. Arttu inputs search terms 
+    - FishingMethod: ''
+    - Fish: 'Hauki'
+    - Place: 'Nauvo'
+
+3. Fisukortti web service displays a list of Spots matching the search terms Arttu input.
+
+4. Arttu clicks open the Spot listing for 'Granvik'.
+
+5. Fisukortti renders the Spot for 'Granvik' in the browser.
+
+6. Arttu scrolls through the Spot. 
+
+7. Arttu saves the spot in his Favourites - list.
+
+8. Arttu closes the web service and browser.
+
+9. Arttu tells Jonna he found a potential pike fishing spot near their cottage.
+
+10. Arttu opens Fisukortti web service and navigates to his Favourites page.
+
+11. Arttu clicks open the Spot listing for 'Granvik'.
+
+12. Fisukortti renders the Spot for 'Granvik' in the browser.
+
+13. Arttu shares the Spot via Messenger to Jonna.
+
+

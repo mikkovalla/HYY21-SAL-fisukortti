@@ -36,3 +36,5 @@ Steps:
 13. Pauli scrolls through the SpotView.
 
 14. Pauli clicks the Facebook 'Share' button in the SpotView, and shares the SpotView for 'Keskisenkoski' in his Facebook profile.
+
+
