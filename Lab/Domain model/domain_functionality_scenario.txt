@@ -1,0 +1,22 @@
+Name: Sanna searches for a whitefish spot in Helsinki region.
+
+Initial State: Sanna wants to go fishing for whitefish and looks for spots.
+
+Actors: Sanna, web service
+
+Steps:
+
+1. Sanna opensa  web service in web browser.
+
+2. Sanna searches the web service.
+
+3. Web service displays a list matching the search terms Sanna input.
+
+4. Sanna clicks open a listing.
+
+5. Web service renders a place in the browser.
+
+6. Sanna looks at the page. 
+
+
+
