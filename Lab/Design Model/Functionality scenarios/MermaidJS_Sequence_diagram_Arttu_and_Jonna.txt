@@ -1,0 +1,16 @@
+sequenceDiagram
+  User->>Search: User makes a search
+  Activate User
+  Search->>SpotListings: Show list of results
+
+  SpotListings-->>Search: Return list of results
+  SpotListings-->>Spot: Get Spot details
+  Spot->>SpotListings: Return Spot details
+  Spot-->>Favorites: Add Spot to favorites
+  Favorites-->>Spot: Spot added to Favorites
+
+  User->>Favorites: User opens Favorites list
+  Favorites->>User: Show Favorites list
+  Favorites->>Spot: Favorites forward to Spot
+  Spot->>Favorites: Spot returned 
+  Deactivate User 
