@@ -1,5 +1,5 @@
 •	Spot 
--	Place to fish, for example a lake, a river, a shoreline, a pond, a creek. Each Spot has at least one Fish, FishingMethod and Place. Spots can have FishingGuide, Skipperi, Advertisement and AffiliateLinks. 
+-	Place to fish, for example a lake, a river, a shoreline, a pond, a creek. Each Spot has at least one Fish, FishingMethod and Place. Spots can have Advertisement and AffiliateLinks. 
 •	SpotList 
 -	SpotList is the Spot listings displayed based on User's Search terms. 
 •	User 
@@ -13,15 +13,15 @@
 •	Search 
 -	Search is used to find Spots. Search can be done by using Place, Fish or FishingType as a search term. 
 •	Place 
--	Place is a geolocation to be used in the Search as a search term, for example a city, a county or an area.
+-	Place is a geolocation to be used in the Search as a search term, for example a city, a county or an area. Places can have FishingGuide and Skipperi. 
 •	Fish 
 -	Fish is a species that is used in the Search as a search term, for example a trout or a perch. The species list is based on the information provided by Laji.fi. 
 •	FishingMethod 
 -	FishingMethod is a way to catch fish and it is used in the Search as a search term, for example fly-fishing, trolling, casting and pole fishing. 
 •	FishingGuide 
--	FishingGuide is a person offering guiding services at specific Spots. The FishingGuides are displayed at the Spot page. There can be multiple FishingGuides available at the specific Spot. User can click the FishingGuide info box and will be redirected to the FishingGuide’s personal web page.
+-	FishingGuide is a person offering guiding services at specific Places. The FishingGuides are displayed at the Spot page. There can be multiple FishingGuides available at the specific Place. User can click the FishingGuide info box and will be redirected to the FishingGuide’s personal web page.
 •	Skipperi 
--	Skipperi is a Finnish boat rental service. If Spot has any available boats, they are displayed at the Spot page. 
+-	Skipperi is a Finnish boat rental service. If Place has any available boats, they are displayed at the Spot page. 
 •	Advertisement 
 -	Advertisement is displayed at specific location at the Spot page. Advertisements are from Google AdWords.
 •	AffiliateLinks 
