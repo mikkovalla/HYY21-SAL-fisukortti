@@ -2,9 +2,11 @@ Type                        Definition
 
 Spot                        Place to fish, for example a lake, a river, a shoreline, a pond, a creek.
 
-Spot view                   The information page displaying data for the specific Spot.
+SpotList                    The spot listings displayed based on user's search terms.
 
 User                        The person using the service and searching the spots.
+
+SavedSearches               User can save searches they do for later use.
 
 Review                      User can make Reviews for spots.
 

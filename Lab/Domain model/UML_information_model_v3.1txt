@@ -3,20 +3,19 @@
 
 // Chain elements like this
 
-[User]1-*[Search]
+[User]1-*[Search]1-*[SavedSearches]
+
 [Search]1-*[FishingMethod]
 [Search]1-*[Fish]
 [Search]1-*[Place]
 [User]1-*[Review]
 [User]1-*[Favorite]
+[Search]1-*[SpotList]1-1[Spot]
 
-[FishingMethod]1-*[Spot]1-1[SpotView/SpotList]
-[Fish]1-*[Spot]
-[Place]1-*[Spot]
 
 [Review]*-1[Spot]
 [Favorite]*-*[Spot]
-[SpotView/SpotList]*-0...*[FishingGuide]
-[SpotView/SpotList]*-0...*[Skipperi]
-[SpotView/SpotList]*-0...*[Advertisement]
-[SpotView/SpotList]*-0...*[AffiliateLinks]
+[Spot]*-0...*[FishingGuide]
+[Spot]*-0...*[Skipperi]
+[Spot]*-0...*[Advertisement]
+[Spot]*-0...*[AffiliateLinks]
