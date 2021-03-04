@@ -1,0 +1,15 @@
+5.2	Change scenario: changing the database 
+
+Scenario: Changing Fish-database so that Fisukortti will utilize Suomen lajitietokeskus’s API in it. 
+
+Quality Attributes: Extensibility, maintainability 
+
+Environment: Normal operation 
+
+Stimulus: Suomen lajitietokeskus collects, shares, maintains information like pictures and sightings about species, and provides API so that information can be used. 
+
+Response: New feature might be implemented, because it would raise the quality of service in Fisukortti. 
+
+Description of system behavior: Adding 3rd party API to Fish microservice so that it will utilize Suomen lajitietokeskus’s API. Fish database needs new columns for new information.
+
+Argumentation: Scenario is relevant, but it will require quite a lot of work  to implement.
