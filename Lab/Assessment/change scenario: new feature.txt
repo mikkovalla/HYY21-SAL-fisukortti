@@ -1,0 +1,15 @@
+5.1	Change scenario: new feature 
+
+Scenario: Adding new feature, AffiliateLinks, to the Fisukortti
+
+Quality Attributes: Extensibility, maintainability 
+
+Environment: Normal operation 
+
+Stimulus: As popularity of the Fisukortti app rises, new affiliate partners want to do marketing through Fisukortti. 
+
+Response: New feature will be implemented, because it is profitable and will increase visibility of the Fisukortti.
+
+Description of system behavior: AffiliateLinks will be displayed at the Spot page. New microservice needs to be created for this change. 
+
+Argumentation: Scenario is highly relevant, but easy to implement because of microservices architecture. 
