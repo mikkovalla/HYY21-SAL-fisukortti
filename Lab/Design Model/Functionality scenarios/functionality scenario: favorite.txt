@@ -1,0 +1,18 @@
+Name: Peter views favorite spots. 
+
+Initial State: Fisukortti web service is active. It is July summer holiday season and Peter wants to go fishing. Peter is a registered user of Fisukortti. 
+
+Actors: Peter, Fisukortti
+
+Steps: 
+
+1.	Peter views list of their own favorite spots. 
+2.	Peter clicks open the spot for 'Granvik' from the list. 
+
+MermaidJS:
+
+sequenceDiagram
+  User->>Favorite spots: User views list of own favorite spots
+  Favorite spots->>User: Show list of favorite spots
+  Favorite spots->>Spot: Favorite spots forward to Spot
+  Spot->>Favorite spots: Spot returned 
