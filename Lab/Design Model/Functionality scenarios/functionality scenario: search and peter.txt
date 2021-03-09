@@ -1,0 +1,16 @@
+Name: Peter searches pike fishing spots in Nauvo. 
+
+Initial State: Fisukortti web service is active. It is July summer holiday season and Peter wants to go fishing. Peter is not registered user of Fisukortti. 
+
+Actors: Peter, Fisukortti
+
+Steps: 
+1.	Peter opens Fisukortti web service in web browser.
+2.	Peter makes search with terms: 
+a.	FishingMethod: 'pike fishing' 
+b.	Fish: 'Hauki'
+c.	Place: 'Nauvo'
+3.	Peter views list of search results.
+4.	Peter clicks open and views the spot for 'Granvik'.
+5.	Peter is interested in a boat rental from Skipperi displayed on spot page. Peter clicks the Skipperi link and is taken to their web page to register as a customer. 
+
