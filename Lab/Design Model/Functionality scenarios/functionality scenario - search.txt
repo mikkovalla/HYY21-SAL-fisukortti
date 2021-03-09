@@ -12,16 +12,3 @@ b.	Fish: 'Hauki'
 c.	Place: 'Nauvo'
 3.	Peter views list of search results.
 4.	Peter clicks open and views the spot for 'Granvik'. 
-
-
-
-For MermaidJS: 
-
-sequenceDiagram
-  User->>Search: User makes a search
-  Activate User
-  Search->>SpotList: Show list of results
-
-  SpotList-->>Search: Return list of results
-  SpotList-->>Spot: Get Spot details
-  Spot->>SpotList: Return Spot details
