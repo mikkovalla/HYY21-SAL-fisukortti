@@ -1,0 +1,14 @@
+Non-registered user can: 
+•	Open Fisukortti app 
+•	Make a search
+-	View list of results 
+•	View spots 
+-	Go to Skipperi service from the spot page 
+-	Go to fishing guide service from the spot page 
+-	View ads from spot page 
+•	Share spots 
+
+Registered user can also: 
+•	Add spot to favorites 
+•	View own favorites 
+•	Save searches 
