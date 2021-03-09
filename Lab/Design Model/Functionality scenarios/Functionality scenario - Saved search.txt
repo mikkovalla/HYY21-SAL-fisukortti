@@ -1,0 +1,9 @@
+Functionality scenario: Saved search (Susanna)
+
+Name: 
+
+Initial State: 
+
+Actors: 
+
+Steps: 
