@@ -1,0 +1,15 @@
+Change scenario: assess feature (Mikko)
+
+Scenario: Assessing feature SavedSearches 
+
+Quality Attributes:  
+
+Environment: Normal operation 
+
+Stimulus: 
+
+Response: 
+
+Description of system behavior: 
+
+Argumentation: 
