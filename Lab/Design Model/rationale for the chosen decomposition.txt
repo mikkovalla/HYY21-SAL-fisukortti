@@ -1,0 +1,8 @@
+Maintainability can be increased by using known patterns and by avoiding anti-patterns. Microlith is an anti-pattern where everything depends on everything else. 
+This has been avoided in final design. 
+
+API gateway, that is the single entry point for all users, will be implemented. Different users need different data and API gateway provides the optimal API for each client. 
+API gateway also simplifies the client by moving logic for calling multiple services from the client to API gateway. API gateway will increase complexity, 
+but benefits are greater than drawbacks. The API Gateway authenticates the request and passes an access token, 
+that securely identifies the requestor in each request to the services. A service can include the access token in requests it makes to other services. 
+Access token can handle authentication and authorization quality attributes. 
