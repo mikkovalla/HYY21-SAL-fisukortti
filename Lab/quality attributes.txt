@@ -1,0 +1,29 @@
+Quality attributes
+
+An important part of architecture work is to learn to recognize and analyze the quality requirements that architecture design can and should deal with. 
+
+Recognized quality attributes 
+
+Dynamic or operational quality attributes:
+•	Scalability is the ability for the system to perform and operate as the number of users or requests increases. Fisukortti must be up and running when there are many users on a sunny Sunday afternoon.
+
+Static quality attributes 
+•	Extensibility is important, because adding new pieces of functionality must be easy. 
+•	Localization so that there is support for multiple languages.
+•	Maintainability so that it is easy to apply changes and enhance the system. 
+
+Cross-cutting quality attributes 
+•	Accessibility so that all users can access Fisukortti, including those with disabilities like visually impaired.
+•	Authentication because Fisukortti-users can login.
+•	Usability so that Fisukortti is easy to use.
+
+Open issues 
+•	Quality attributes about authorization, legal, privacy and security issues are still open.
+
+Analyzing of quality attributes
+
+Scalability is handled by using microservice architecture and by using proper cloud services. Scalability is an important requirement when deployment strategy is designed. Choosing a cloud service provider and service level agreement will be critical.
+
+Quality attributes accessibility and usability will affect user interface design more than backend design. Localization is implemented when coding starts. Maintainability can be increased by using clean code principles. These issues are not addressed in this report.
+
+The most important quality attributes at this phase of design work is extensibility. This issue is taken into account in design process. 
